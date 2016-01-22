@@ -21,3 +21,34 @@ Total 5 (delta 0), reused 0 (delta 0)
 To https://github.com/tjibbestelwagen/example2.git
    df8ca84..36a07a4  master -> master
 
+########## I did not find a way to inlcude the screenshot - they are available seperately see attempt below
+
+manager@bl8vbox:~/git$ echo '![screenshot1](Screenshot from 2016-01-22 11:22:54.png)' >> 'the grade i deserve'.txt
+manager@bl8vbox:~/git$ git add --all :/
+manager@bl8vbox:~/git$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behaviour now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': tjibbestelwagen
+Password for 'https://tjibbestelwagen@github.com': 
+Everything up-to-date
+manager@bl8vbox:~/git$ 
+
