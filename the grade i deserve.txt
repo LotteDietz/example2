@@ -1,0 +1,11 @@
+So, I think the grade I deserve is a 7. It managed not all, but most. I needed some help, but got it in the end. 
+Frankly, I think that by just using it (after an introduction like this) it will become easy to enjoy all te possibilities. 
+
+Some terminal shots followed by screenshots
+
+Speaking to myself don't forget first:
+
+1. add --all :/
+2. Manager@bl8vbox:~/example2/NorthPacific$ git commit -m "picture in read
+3. manager@bl8vbox:~/example2/NorthPacific$ git push
+(or pull first)
