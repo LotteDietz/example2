@@ -9,3 +9,15 @@ Speaking to myself don't forget first:
 2. Manager@bl8vbox:~/example2/NorthPacific$ git commit -m "picture in read
 3. manager@bl8vbox:~/example2/NorthPacific$ git push
 (or pull first)
+
+example of resulting Terminal message
+Username for 'https://github.com': tjibbestelwagen
+Password for 'https://tjibbestelwagen@github.com': 
+Counting objects: 7, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 840 bytes | 0 bytes/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To https://github.com/tjibbestelwagen/example2.git
+   df8ca84..36a07a4  master -> master
+
